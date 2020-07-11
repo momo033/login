@@ -1,20 +1,20 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html;charset=gb2312"%>
 <%@page import="java.util.*"%>
 <html>
 <head>
-  <title>登陆</title>
+  <title>��½</title>
 </head>
 <body>
 <center>
-  <h1>登陆范例</h1>
+  <h1>��½����</h1>
   <hr>
   <br>
   <br>
-  <!-- 加入更加详细的错误提示 -->
+  <!-- ���������ϸ�Ĵ�����ʾ -->
   <%
     if(request.getAttribute("errors")!=null)
     {
-      // 有错误，要进行打印输出
+      // �д���Ҫ���д�ӡ���
       List all = (List)request.getAttribute("errors") ;
       Iterator iter = all.iterator() ;
       while(iter.hasNext())
@@ -29,20 +29,20 @@
     <form action="LoginServlet" method="post">
       <table>
         <tr>
-          <td colspan="2">用户登陆</td>
+          <td colspan="2">�û���½</td>
         </tr>
         <tr>
-          <td>用户名：</td>
+          <td>�û�����</td>
           <td><input type="text" name="id" value="${person.id}"></td>
         </tr>
         <tr>
-          <td>密&nbsp;&nbsp;码：</td>
+          <td>��&nbsp;&nbsp;�룺</td>
           <td><input type="password" name="password" value="${person.password}"></td>
         </tr>
         <tr>
           <td colspan="2">
-            <input type="submit" value="登陆">
-            <input type="reset" value="重置">
+            <input type="submit" value="��½">
+            <input type="reset" value="����">
           </td>
         </tr>
       </table>

@@ -5,14 +5,11 @@
     <file url="file://$PROJECT_DIR$/.idea/libraries" charset="GBK" />
     <file url="file://$PROJECT_DIR$/.idea/uiDesigner.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/.settings" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/.settings" charset="GBK" />
     <file url="file://$PROJECT_DIR$/build/classes/dao" charset="GBK" />
     <file url="file://$PROJECT_DIR$/build/classes/servlet" charset="GBK" />
     <file url="file://$PROJECT_DIR$/build/classes/vo" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/dao/DAOFactory.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/dao/DataBaseConnection.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/dao/PersonDAO.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/dao/PersonDAOImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/.classpath" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/.project" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
